@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel </title>
+    <link rel="stylesheet" href="hotel1.css">
+</head>
+
+<body>
+    <nav class="nav_1">
+        <div></div>
+        <ul id="menuList">
+            <li><a href="Home">Home</a></li>
+            <li><a href="Order">Order</a></li>
+            <li><a href="Food">Food</a></li>
+            <li><a href="Restaurant">Restaurant</a></li>
+            <li><a href="Testimonials">Testimonials</a></li>
+            <li><a href="Contact Us">Contact us</a></li>
+        </ul>
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        </div>
+    </nav>
+    <div class="hotel_img_1">
+    </div>
+    <div class="hotel_img_2 container_head">
+        <div class="card_para">
+            <h1 class="hotel_head">Lorem Ipsum</h1>
+            <p class="hotel_para">Lorem ipsum dolor sit amet,consectetur adipiscing elit.Vivamus
+                id est vitae dolor rhoncus tristique.Maecenas metus quam.
+                rhoncus euimodlorem in,sollicitudin viverra eros.Donec
+                dictum lutus quam ut tristique.Curabitur nec faucibus purus.
+                Quisque congue sem nec justo mollis,in tincidunt erat pretium.
+                sed pulvinar,massa ac porta viverra.
+            </p>
+            <button class="hotel_button">Click Me</button>
+        </div>
+        <div class="hotel_img_11">
+        </div>
+    </div>
+    <div class="bg_color">
+        <div class="container">
+            <div class="container-box">
+                <div class="column">
+                    <img src="https://res.cloudinary.com/dlve3lrfo/image/upload/v1713540023/pexels-rachel-claire-6752433_y8bsx2.jpg" alt="Image 1">
+                    <img class="img" src="https://res.cloudinary.com/dlve3lrfo/image/upload/v1713539983/pexels-eva-bronzini-6141651_xp1vji.jpg" alt="Image 2">
+                </div>
+                <div class="column">
+                    <img class="img3" src="https://res.cloudinary.com/dlve3lrfo/image/upload/v1713539991/pexels-mister-mister-3434523_cbetaj.jpg" alt="Image 3">
+                </div>
+                <div class="column">
+                    <div class="horizontal-container">
+                        <p class="para">Lorem Ipsum</p>
+                        <h1 class="head">LOREM IPSUM SET ADEMIR </h1>
+                        <div class="bottom_img_card">
+                            <button class="button">click</button>
+                            <img id="img_button" src="https://res.cloudinary.com/dlve3lrfo/image/upload/v1713539970/icons8-arrow-30_y93k9p.png" />
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let menuList = document.getElementById("menuList")
+        menuList.style.maxHeight = "0px";
+
+        function toggleMenu() {
+            if (menuList.style.maxHeight == "0px") {
+                menuList.style.maxHeight = "300px";
+            } else {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
